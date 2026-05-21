@@ -1,6 +1,7 @@
-#[cfg(test)]
 mod hackerrank;
 
+use hackerrank::task3::staircase;
+
 fn main() {
-    println!("We learn Rust!");
+    println!("{}", staircase(6));
 }
