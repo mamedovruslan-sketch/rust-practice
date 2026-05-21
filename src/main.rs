@@ -1,7 +1,9 @@
 mod hackerrank;
 
-use hackerrank::task6::kangaroo;
+use hackerrank::task7::get_total_x;
 
 fn main() {
-    println!("{}", kangaroo(0, 3, 4, 2));
+    let result = get_total_x(vec![2, 4], vec![16, 32, 96]);
+
+    println!("{}", result);
 }
