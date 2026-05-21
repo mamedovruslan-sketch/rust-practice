@@ -1,11 +1,17 @@
 mod hackerrank;
 
-use hackerrank::task4::grading_students;
+use hackerrank::task5::count_apples_and_oranges;
 
 fn main() {
-    let result = grading_students(vec![73, 67, 38, 33]);
+    let result = count_apples_and_oranges(
+        7,
+        11,
+        5,
+        15,
+        vec![-2, 2, 1],
+        vec![5, -6],
+    );
 
-    for grade in result {
-        println!("{}", grade);
-    }
+    println!("{}", result.0);
+    println!("{}", result.1);
 }
