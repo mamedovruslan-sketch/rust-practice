@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 pub fn get_total_x(a: Vec<i32>, b: Vec<i32>) -> i32 {
     let start = *a.iter().max().unwrap();
     let end = *b.iter().min().unwrap();
