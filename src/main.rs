@@ -1,9 +1,9 @@
 mod hackerrank;
 
-use hackerrank::task9::migratory_birds;
+use hackerrank::task10::sock_merchant;
 
 fn main() {
-    let result = migratory_birds(vec![1, 4, 4, 4, 5, 3]);
+    let result = sock_merchant(vec![10, 20, 20, 10, 10, 30, 50, 10, 20]);
 
     println!("{}", result);
 }

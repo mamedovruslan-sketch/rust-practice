@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 pub fn migratory_birds(arr: Vec<i32>) -> i32 {
     let mut counts = vec![0; 6];
 
