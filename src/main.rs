@@ -1,9 +1,13 @@
 mod hackerrank;
 
-use hackerrank::task10::sock_merchant;
+use hackerrank::task11::diagonal_difference;
 
 fn main() {
-    let result = sock_merchant(vec![10, 20, 20, 10, 10, 30, 50, 10, 20]);
+    let arr = vec![
+        vec![11, 2, 4],
+        vec![4, 5, 6],
+        vec![10, 8, -12],
+    ];
 
-    println!("{}", result);
+    println!("{}", diagonal_difference(arr));
 }

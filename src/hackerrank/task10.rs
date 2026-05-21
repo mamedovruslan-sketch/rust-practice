@@ -1,5 +1,5 @@
 use std::collections::HashMap;
-
+#[allow(dead_code)]
 pub fn sock_merchant(ar: Vec<i32>) -> i32 {
     let mut counts = HashMap::new();
 
