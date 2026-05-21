@@ -1,9 +1,9 @@
 mod hackerrank;
 
-use hackerrank::task8::breaking_records;
+use hackerrank::task9::migratory_birds;
 
 fn main() {
-    let result = breaking_records(vec![10, 5, 20, 20, 4, 5, 2, 25, 1]);
+    let result = migratory_birds(vec![1, 4, 4, 4, 5, 3]);
 
-    println!("{} {}", result[0], result[1]);
+    println!("{}", result);
 }

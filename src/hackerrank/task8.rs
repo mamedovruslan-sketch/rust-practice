@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 pub fn breaking_records(scores: Vec<i32>) -> Vec<i32> {
     let mut best = scores[0];
     let mut worst = scores[0];
